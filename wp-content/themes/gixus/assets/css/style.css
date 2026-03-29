@@ -12124,11 +12124,11 @@ ul.link-list li a {
 .gixus-preloader .animation-preloader::after {
     position: absolute;
     left: 50%;
-    top: 30px;
+    top: 8px;
     content: "";
-    height: 50px;
-    width: 50px;
-    background: url(../img/logo-icon.png);
+    height: 96px;
+    width: 96px;
+    background: url(../../../../../assets/brand/tanishia-hardware-logo.png);
     transform: translateX(-50%);
     background-repeat: no-repeat;
     background-position: center;

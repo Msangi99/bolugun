@@ -134,11 +134,23 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
   --bg-gradient-reverse: linear-gradient(90deg, #f94735  0%, #ff214a 100%);
 }
 		
-.gixus-preloader .animation-preloader::after{
-	background: url(assets/brand/tanishia-hardware-logo.jpg);
+@keyframes tanishia-brand-pulse {
+  0%, 100% { opacity: 1; transform: translateX(-50%) scale(1); }
+  50% { opacity: 0.92; transform: translateX(-50%) scale(1.05); }
+}
+.gixus-preloader .animation-preloader::after {
+	background: url(assets/brand/tanishia-hardware-logo.png);
 	background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+	background-position: center;
+	background-size: contain;
+	height: 96px;
+	width: 96px;
+	top: 8px;
+	animation: tanishia-brand-pulse 2.2s ease-in-out infinite;
+}
+.gixus-preloader .animation-preloader .spinner {
+	border: 3px solid rgba(26, 42, 74, 0.2);
+	border-top-color: #d4a04a;
 }
 		
 .btn.btn-gradient::after{
@@ -165,10 +177,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					}
 				}
 			</style>
-			<link rel="icon" href="assets/brand/tanishia-hardware-logo.jpg" sizes="32x32" />
-<link rel="icon" href="assets/brand/tanishia-hardware-logo.jpg" sizes="192x192" />
-<link rel="apple-touch-icon" href="assets/brand/tanishia-hardware-logo.jpg" />
-<meta name="msapplication-TileImage" content="assets/brand/tanishia-hardware-logo.jpg" />
+			<link rel="icon" type="image/png" href="assets/brand/tanishia-hardware-logo.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="assets/brand/tanishia-hardware-logo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="assets/brand/tanishia-hardware-logo.png" />
+<meta name="msapplication-TileImage" content="assets/brand/tanishia-hardware-logo.png" />
+<meta name="theme-color" content="#152238" />
 <style id="gixus_options-dynamic-css" title="dynamic-css" class="redux-options-output">body{font-family:Outfit;font-weight:400;font-style:normal;color:#666666;font-size:16px;}p{font-family:Outfit;font-weight:400;font-style:normal;color:#666666;font-size:16px;}h1{font-family:Outfit;font-weight:600;font-style:normal;font-size:40px;}h2{font-family:Outfit;font-weight:600;font-style:normal;font-size:36px;}h3{font-family:Outfit;font-weight:600;font-style:normal;font-size:28px;}h4{font-family:Outfit;font-weight:600;font-style:normal;font-size:22px;}h5{font-family:Outfit;font-weight:600;font-style:normal;font-size:18px;}h6{font-family:Outfit;font-weight:600;font-style:normal;font-size:14px;}.title{font-family:Outfit;font-weight:600;font-style:normal;font-size:50px;}.sub-title{font-family:Outfit;font-weight:500;font-style:normal;font-size:20px;}</style></head>
 
 <body class="home wp-singular page-template page-template-page-templates page-template-home page-template-page-templateshome-php page page-id-1320 wp-custom-logo wp-embed-responsive wp-theme-gixus ehf-header ehf-footer ehf-template-gixus ehf-stylesheet-gixus elementor-default elementor-kit-10 elementor-page elementor-page-1320">
@@ -190,8 +203,8 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                             <i class="fa fa-bars"></i>
                         </button>
                         <a class="navbar-brand" href="index.html">
-                            <img src="assets/brand/tanishia-hardware-logo.jpg" class="logo logo-display" alt="Tanishia Hardware logo">
-                            <img src="assets/brand/tanishia-hardware-logo.jpg" class="logo logo-scrolled" alt="Tanishia Hardware logo">
+                            <img src="assets/brand/tanishia-hardware-logo.png" class="logo logo-display" alt="Tanishia Hardware logo">
+                            <img src="assets/brand/tanishia-hardware-logo.png" class="logo logo-scrolled" alt="Tanishia Hardware logo">
                         </a>
                     </div>
 
@@ -199,7 +212,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                 <div class="collapse navbar-collapse" id="navbar-menu">
 
                     <div class="collapse-header">
-                                                <img src="assets/brand/tanishia-hardware-logo.jpg" alt="Tanishia Hardware logo">
+                                                <img src="assets/brand/tanishia-hardware-logo.png" alt="Tanishia Hardware logo">
                                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-times"></i>
                         </button>
@@ -678,7 +691,7 @@ At Seleman Saidy Omary T/A Tanishia Hardware &amp; General Supplies, we are comm
                 <div class="row">
                     <div class="col-lg-4 col-md-6 footer-item pr-30 pr-md-15 pr-xs-15">
                         <div class="f-item address">
-                            <img src="assets/brand/tanishia-hardware-logo.jpg" alt="Tanishia Hardware logo">
+                            <img src="assets/brand/tanishia-hardware-logo.png" alt="Tanishia Hardware logo">
                             <p>
                                 At Seleman Saidy Omary T/A Tanishia Hardware &amp; General Supplies, we offer high-quality solutions across a diverse range of industries. Our services include:  The supply of hardware, tools, and equipment for the construction sector.  Comprehensive agricultural services to support productivity and growth.  Specialized security solutions, providing advanced equipment to protect properties and ensure peace of mind.  Seamless relocation and displacement services to facilitate smooth transitions.  Expert real estate services for both personal and investment purposes.  Reliable cleaning services for residential, commercial, and industrial spaces.                            </p>
                                                             <ul class="footer-social">
