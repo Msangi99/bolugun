@@ -12379,3 +12379,30 @@ ul.link-list li a {
 .f-item.newsletter form span{
 	color: #000; 
 }
+
+/* --------------------------------------------------------------------------
+   Local overrides: full-width service images + full-width home carousel
+   -------------------------------------------------------------------------- */
+
+/* Service pages: make the main image full-bleed (viewport width) */
+.services-details-area .services-single-content .thumb {
+	margin-left: calc(50% - 50vw);
+	margin-right: calc(50% - 50vw);
+}
+
+.services-details-area .services-single-content .thumb img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* Home page: ensure the banner slider is full-bleed */
+.banner-area.banner-style-two {
+	width: 100vw;
+	margin-left: calc(50% - 50vw);
+	margin-right: calc(50% - 50vw);
+}
+
+.banner-area.banner-style-two .banner-thumb {
+	width: 100%;
+}
