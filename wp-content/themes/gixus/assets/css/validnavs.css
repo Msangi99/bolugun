@@ -1084,7 +1084,7 @@ body.on-side .body-overlay {
 }
 
 nav.navbar.validnavs ul.nav>li.dropdown>a.dropdown-toggle::after {
-	content: "\f107";
+	content: "\f282";
 	font-family: var(--fontawesome);
 	margin-left: 7px;
 	border: none;
@@ -1325,25 +1325,25 @@ nav.navbar.validnavs.brand-center {
 
 	nav.navbar.validnavs li.dropdown ul.dropdown-menu li.dropdown>a.dropdown-toggle:before {
 		font-family: var(--fontawesome);
-		font-weight: 700;
+		font-weight: 400;
 		float: right;
-		content: "\f105";
+		content: "\f285";
 		margin-top: 0;
 	}
 
 	nav.navbar.validnavs ul.navbar-right li.dropdown ul.dropdown-menu li.dropdown>a.dropdown-toggle:before {
 		font-family: var(--fontawesome);
-		font-weight: 700;
+		font-weight: 400;
 		float: right;
-		content: "\f105";
+		content: "\f285";
 		margin-top: 0;
 	}
 
 	nav.navbar.validnavs ul.navbar-right li.dropdown.dropdown-left ul.dropdown-menu li.dropdown>a.dropdown-toggle:before {
 		font-family: var(--fontawesome);
-		font-weight: 700;
+		font-weight: 400;
 		float: left;
-		content: "\f104";
+		content: "\f284";
 		margin-top: 0;
 	}
 
@@ -1777,12 +1777,12 @@ nav.navbar.validnavs.brand-center {
 
 	nav.validnavs.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu li.dropdown>a:before {
 		font-family: var(--fontawesome);
-		content: "\f105";
+		content: "\f285";
 		float: right;
 	}
 
 	nav.validnavs.navbar-sidebar ul.nav li.dropdown.on ul.dropdown-menu li.dropdown.on>a:before {
-		content: "\f107";
+		content: "\f282";
 	}
 
 	nav.validnavs.navbar-sidebar ul.dropdown-menu.megamenu-content>li {
@@ -1809,12 +1809,12 @@ nav.navbar.validnavs.brand-center {
 
 	nav.validnavs.navbar-sidebar .dropdown .megamenu-content .col-menu .title:before {
 		font-family: var(--fontawesome);
-		content: "\f105";
+		content: "\f285";
 		float: right;
 	}
 
 	nav.validnavs.navbar-sidebar .dropdown .megamenu-content .col-menu.on .title:before {
-		content: "\f107";
+		content: "\f282";
 	}
 
 	nav.validnavs.navbar-sidebar .dropdown .megamenu-content .col-menu {
@@ -2049,14 +2049,14 @@ nav.navbar.validnavs.brand-center {
 	nav.navbar.validnavs li.dropdown a.dropdown-toggle:before {
 		font-family: var(--fontawesome);
 		font-weight: 400;
-		content: "\f105";
+		content: "\f285";
 		float: right;
 		font-size: 16px;
 		margin-left: 10px;
 	}
 
 	nav.navbar.validnavs li.dropdown.on>a.dropdown-toggle:before {
-		content: "\f107";
+		content: "\f282";
 	}
 
 	nav.navbar.validnavs .navbar-nav>li>a {
@@ -2158,7 +2158,7 @@ nav.navbar.validnavs.brand-center {
 	}
 
 	nav.navbar.validnavs .dropdown .megamenu-content .col-menu .title::before {
-		content: "\f105";
+		content: "\f285";
 		float: right;
 		font-family: var(--fontawesome);
 		font-size: 16px;
@@ -2181,7 +2181,7 @@ nav.navbar.validnavs.brand-center {
 	}
 
 	nav.navbar.validnavs .dropdown .megamenu-content .col-menu.on .title:before {
-		content: "\f107";
+		content: "\f282";
 	}
 
 	nav.navbar.validnavs .dropdown .megamenu-content .col-menu .content {

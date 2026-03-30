@@ -116,7 +116,7 @@
                 // Add Class to body
                 $("nav.navbar.validnavs").find("ul.nav").wrap("<div class='wrap-full-menu'></div>");
                 $(".wrap-full-menu").wrap("<div class='nav-full'></div>");
-                $("ul.nav.navbar-nav").prepend("<li class='close-full-menu'><a href='#'><i class='fa fa-times'></i></a></li>");
+                $("ul.nav.navbar-nav").prepend("<li class='close-full-menu'><a href='#'><i class='bi bi-x-lg'></i></a></li>");
             } else if (getNav.hasClass("navbar-mobile")) {
                 getNav.removeClass("no-full");
             } else {
@@ -306,8 +306,8 @@
                         e.stopPropagation();
                         $(this).closest("li.dropdown").find(".dropdown-menu").first().stop().fadeToggle();
                         $(".navbar-toggle").each(function() {
-                            $(".fa", this).removeClass("fa-bars");
-                            $(".fa", this).addClass("fa-bars");
+                            $(".bi", this).removeClass("bi-x-lg");
+                            $(".bi", this).addClass("bi-list");
                             $(".navbar-collapse").removeClass("in");
                             $(".navbar-collapse").removeClass("on");
                         });
@@ -324,8 +324,7 @@
                 $(".navbar-toggle").each(function() {
                     $(this).off("click");
                     $(this).on("click", function() {
-                        $(".fa", this).toggleClass("fa-bars");
-                        $(".fa", this).toggleClass("fa-bars");
+                        $(".bi", this).toggleClass("bi-list bi-x-lg");
                         $('.navbar-collapse').toggleClass("show");
                         $('.overlay-screen').toggleClass("opened");
                         $('.navbar').toggleClass("navbar-responsive");
@@ -538,8 +537,8 @@
 
                     // Toggle Bars
                     $(".navbar-toggle").each(function() {
-                        $(".fa", this).removeClass("fa-bars");
-                        $(".fa", this).addClass("fa-bars");
+                        $(".bi", this).removeClass("bi-x-lg");
+                        $(".bi", this).addClass("bi-list");
                     });
 
                     // Scroll
@@ -595,8 +594,8 @@
 
         // Toggle Bars
         $(".navbar-toggle").each(function() {
-            $(".fa", this).removeClass("fa-bars");
-            $(".fa", this).addClass("fa-bars");
+            $(".bi", this).removeClass("bi-x-lg");
+            $(".bi", this).addClass("bi-list");
             $(this).removeClass("fixed");
         });
         $(".navbar-collapse").removeClass("in");

@@ -450,8 +450,8 @@ ul.wp-block-rss.wp-block-rss a {
 }
 
 .breadcrumb-area .breadcrumb > li + li::before {
-    content: "\f105";
-    font-family: "Font Awesome 5 Pro";
+    content: "\f285";
+    font-family: "bootstrap-icons";
     font-weight: 600;
     padding: 0 5px;
     color: var(--white);
@@ -473,8 +473,8 @@ ul.wp-block-rss.wp-block-rss a {
 }
 
 .breadcrumb-area .breadcrumb li::after {
-    content: "\f105";
-    font-family: "Font Awesome 5 Pro";
+    content: "\f285";
+    font-family: "bootstrap-icons";
     font-weight: 600;
     right: -5px;
     position: absolute;
@@ -627,8 +627,8 @@ ul.post-categories a:hover {
 	position: absolute;
 	right: 0;
 	top: 0;
-	content: "\f08d";
-	font-family: "Font Awesome 5 Pro";
+	content: "\f3e8";
+	font-family: "bootstrap-icons";
 	font-weight: 600;
 	color: var(--white);
 	height: 55px;
@@ -1010,8 +1010,8 @@ a.button-regular:hover i::after {
 .widget_block.widget_search form .wp-block-search__inside-wrapper button::before {
 	right: 0;
 	top: 0;
-	content: "\f002" !important;
-	font-family: "Font Awesome 5 Pro";
+	content: "\f52a" !important;
+	font-family: "bootstrap-icons";
 	text-indent: 0;
 	position: absolute;
 	color: var(--color-heading);
@@ -2261,8 +2261,8 @@ blockquote {
 blockquote::after {
 	position: absolute;
 	right: 50px;
-	content: "\f10d";
-	font-family: "Font Awesome 5 Pro";
+	content: "\f255";
+	font-family: "bootstrap-icons";
 	bottom: 8px;
 	font-weight: 100;
 	opacity: 0.1;

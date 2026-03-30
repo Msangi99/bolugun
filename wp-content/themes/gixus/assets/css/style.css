@@ -86,7 +86,7 @@ Sidebar heading:  20px 'Outfit', sans-serif
 :root {
 	--font-default: 'Outfit', sans-serif;
 	--font-heading: 'Outfit', sans-serif;
-	--fontawesome: "Font Awesome 5 Pro";
+	--fontawesome: "bootstrap-icons";
 	--black: #000000;
 	--dark: #1f2b38;
 	--dark-secondary: #022b6d;
@@ -335,8 +335,8 @@ p {
 	font-family: var(--font-default);
 }
 
-.fa, .fas {
-    font-family: "Font Awesome 5 Pro" !important;
+.bi {
+	font-family: "bootstrap-icons" !important;
 }
 
 
@@ -3161,9 +3161,9 @@ p {
 }
 
 .banner-area.navigation-custom-large .swiper-button-prev::after {
-	font-family: "Font Awesome 5 Pro";
-	content: "\f104";
-	font-weight: 100;
+	font-family: "bootstrap-icons";
+	content: "\f284";
+	font-weight: 400;
 	font-size: 30px;
 	position: absolute;
 	left: 8px;
@@ -3184,9 +3184,9 @@ p {
 }
 
 .banner-area.navigation-custom-large .swiper-button-next::after {
-	font-family: "Font Awesome 5 Pro";
-	content: "\f105";
-	font-weight: 100;
+	font-family: "bootstrap-icons";
+	content: "\f285";
+	font-weight: 400;
 	font-size: 30px;
 	position: absolute;
 	right: 8px;
@@ -4640,8 +4640,8 @@ ul.list-style-three li::after {
 	position: absolute;
 	left: 0;
 	top: 7px;
-	content: "\f00c";
-	font-family: "Font Awesome 5 Pro";
+	content: "\f26e";
+	font-family: "bootstrap-icons";
 	height: 23px;
 	width: 23px;
 	line-height: 23px;
@@ -5481,8 +5481,8 @@ ul.list-style-four li::after {
 	position: absolute;
 	left: 0;
 	top: 0;
-	content: "\f067";
-	font-family: "Font Awesome 5 Pro";
+	content: "\f4fe";
+	font-family: "bootstrap-icons";
 	font-size: 14px;
 }
 
@@ -5771,8 +5771,8 @@ ul.list-sytle-four li h4::after {
 	position: absolute;
 	left: 0;
 	top: 0;
-	content: "\f2f7";
-	font-family: "Font Awesome 5 Pro";
+	content: "\f30d";
+	font-family: "bootstrap-icons";
 }
 
 ul.list-sytle-four li:first-child {
@@ -6434,9 +6434,9 @@ ul.list-sytle-four li p {
 
 .accordion-item.accordion-style-one button.accordion-button::after {
 	background: transparent;
-	content: "\f067";
-	font-family: "Font Awesome 5 Pro";
-	font-weight: 100;
+	content: "\f4fe";
+	font-family: "bootstrap-icons";
+	font-weight: 400;
 	font-size: 17px;
 	position: absolute;
 	top: 22px;
@@ -6453,7 +6453,7 @@ ul.list-sytle-four li p {
 .accordion-item.accordion-style-one button.accordion-button:not(.collapsed)::after {
 	-webkit-transform: inherit;
 	transform: inherit;
-	content: "\f068";
+	content: "\f2ea";
 }
 
 .accordion-item.accordion-style-one button.accordion-button:not(.collapsed)::after {
@@ -6739,17 +6739,17 @@ ul.list-style-two li::after {
 	content: "";
 	height: 100%;
 	width: 100%;
-	font-family: "Font Awesome 5 Pro";
+	font-family: "bootstrap-icons";
 	text-align: center;
 	color: var(--white);
 }
 
 .project-swiper-nav .project-button-next::after {
-	content: "\f105";
+	content: "\f285";
 }
 
 .project-swiper-nav .project-button-prev::after {
-	content: "\f104";
+	content: "\f284";
 }
 
 .project-style-one-carousel {
@@ -7090,16 +7090,35 @@ ul.list-style-two li::after {
 	transform: translateY(0);
 }
 
-.social-overlay ul li a i.fa-facebook-f {
+.social-overlay ul li a i.fa-facebook-f,
+.social-overlay ul li a i.bi-facebook {
 	background: #3B5998;
 }
 
-.social-overlay ul li a i.fa-dribbble {
+.social-overlay ul li a i.fa-dribbble,
+.social-overlay ul li a i.bi-dribbble {
 	background: #ea4c89;
 }
 
-.social-overlay ul li a i.fa-linkedin-in {
+.social-overlay ul li a i.fa-linkedin-in,
+.social-overlay ul li a i.bi-linkedin {
 	background: #0077B5;
+}
+
+.social-overlay ul li a i.bi-twitter-x {
+	background: #000000;
+}
+
+.social-overlay ul li a i.bi-youtube {
+	background: #ff0000;
+}
+
+.social-overlay ul li a i.bi-instagram {
+	background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-overlay ul li a i.bi-whatsapp {
+	background: #25d366;
 }
 
 
@@ -7794,8 +7813,8 @@ ul.list-style-two li::after {
 	position: absolute;
 	left: 0;
 	top: 0;
-	content: "\f060";
-	font-family: "Font Awesome 5 Pro";
+	content: "\f12f";
+	font-family: "bootstrap-icons";
 	display: block;
 	height: 40px;
 	width: 40px;
@@ -7811,8 +7830,8 @@ ul.list-style-two li::after {
 	position: absolute;
 	right: 0;
 	top: 0;
-	content: "\f061";
-	font-family: "Font Awesome 5 Pro";
+	content: "\f138";
+	font-family: "bootstrap-icons";
 	display: block;
 	height: 40px;
 	width: 40px;
@@ -7898,8 +7917,8 @@ ul.list-style-two li::after {
 	position: absolute;
 	right: 50px;
 	bottom: 30px;
-	content: "\f10e";
-	font-family: "Font Awesome 5 Pro";
+	content: "\f6b0";
+	font-family: "bootstrap-icons";
 	color: var(--color-heading);
 	font-size: 50px;
 	z-index: -1;
@@ -8002,8 +8021,8 @@ ul.list-style-two li::after {
 	position: absolute;
 	left: 0;
 	top: 0;
-	content: "\f060";
-	font-family: "Font Awesome 5 Pro";
+	content: "\f12f";
+	font-family: "bootstrap-icons";
 	display: block;
 	height: 40px;
 	width: 40px;
@@ -8019,8 +8038,8 @@ ul.list-style-two li::after {
 	position: absolute;
 	right: 0;
 	top: 0;
-	content: "\f061";
-	font-family: "Font Awesome 5 Pro";
+	content: "\f138";
+	font-family: "bootstrap-icons";
 	display: block;
 	height: 40px;
 	width: 40px;
@@ -8125,11 +8144,13 @@ ul.list-style-two li::after {
 	margin-right: 12px;
 }
 
-.pricing-style-one ul li .fa-check {
+.pricing-style-one ul li .fa-check,
+.pricing-style-one ul li .bi-check-lg {
 	background: #00c47d;
 }
 
-.pricing-style-one ul li .fa-times {
+.pricing-style-one ul li .fa-times,
+.pricing-style-one ul li .bi-x-lg {
 	background: #f85d5d;
 }
 
