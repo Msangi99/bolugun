@@ -1,0 +1,44 @@
+{
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-BOrJxbIo.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-BtvjY1KL.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BfK77WZR.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/home.css": {
+    "file": "assets/home-BDJSIr_V.css",
+    "name": "home",
+    "names": [
+      "home.css"
+    ],
+    "src": "resources/css/home.css",
+    "isEntry": true,
+    "assets": [
+      "assets/bootstrap-icons-BtvjY1KL.woff2",
+      "assets/bootstrap-icons-BOrJxbIo.woff"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BKYR8ipv.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/constructify-page.js": {
+    "file": "assets/constructify-page-CHEs5dQJ.js",
+    "name": "constructify-page",
+    "src": "resources/js/constructify-page.js",
+    "isEntry": true
+  }
+}

@@ -1,0 +1,135 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+@import './constructify.css';
+
+/* Dynamic services catalog (image thumbnails) */
+.services-page-dynamic .service-item .service-thumb {
+    width: 56px;
+    height: 56px;
+    min-width: 56px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--accent-color), transparent 90%);
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+.services-page-dynamic .service-item .service-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.services-page-dynamic .service-item:hover .service-thumb {
+    box-shadow: 0 0 0 2px var(--accent-color);
+}
+
+@media (min-width: 576px) {
+    .services-page-dynamic .service-item .service-thumb {
+        width: 64px;
+        height: 64px;
+        min-width: 64px;
+    }
+}
+
+/* Contact page: optional photo inside theme icon-box */
+.contact.contact-page .info-cards .info-card .icon-box {
+    overflow: hidden;
+}
+
+.contact.contact-page .info-cards .info-card .icon-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.contact.contact-page .contact-page-map iframe {
+    min-height: 240px;
+}
+
+@media (min-width: 768px) {
+    .contact.contact-page .contact-page-map iframe {
+        min-height: 0;
+    }
+}
+
+/* Navbar: smaller system name (theme default is 24–28px) */
+.header .logo h1.sitename {
+    font-size: 0.8125rem;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+@media (min-width: 576px) {
+    .header .logo h1.sitename {
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .header .logo h1.sitename {
+        font-size: 0.9375rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header .logo h1.sitename {
+        font-size: 1rem;
+    }
+}
+
+/* Floating WhatsApp (fixed; sits above scroll-top button) */
+.floating-whatsapp {
+    position: fixed;
+    right: 15px;
+    bottom: 72px;
+    z-index: 99998;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background: #25d366;
+    color: #fff;
+    font-size: 1.75rem;
+    line-height: 1;
+    box-shadow: 0 4px 14px rgba(37, 211, 102, 0.45);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.floating-whatsapp:hover {
+    color: #fff;
+    transform: scale(1.06);
+    box-shadow: 0 6px 18px rgba(37, 211, 102, 0.55);
+}
+
+@media (min-width: 768px) {
+    .floating-whatsapp {
+        right: 20px;
+        bottom: 80px;
+        width: 3.75rem;
+        height: 3.75rem;
+        font-size: 1.85rem;
+    }
+}
+
+/* About page: match reference layout (taller gallery, circular highlight icons) */
+.about.about-page .about-gallery .gallery-main img {
+    aspect-ratio: 3 / 4;
+    max-height: 520px;
+}
+
+.about.about-page .about-highlights .highlight-item .highlight-icon {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about.about-page .about-highlights .highlight-item .highlight-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

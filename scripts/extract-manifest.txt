@@ -1,0 +1,25 @@
+{
+    "css_bytes": 54801,
+    "sections": [
+        "hero",
+        "about",
+        "services",
+        "stats",
+        "projects",
+        "process",
+        "team",
+        "testimonials",
+        "faq",
+        "call-to-action",
+        "contact"
+    ],
+    "external_scripts": [
+        "https:\/\/builder.bootstrapmade.com\/static\/vendors\/bootstrap\/js\/bootstrap.bundle.min.js?v=19",
+        "https:\/\/builder.bootstrapmade.com\/static\/vendors\/aos\/aos.js?v=19 ",
+        "https:\/\/builder.bootstrapmade.com\/static\/vendors\/purecounter\/purecounter_vanilla.js?v=19",
+        "https:\/\/builder.bootstrapmade.com\/static\/vendors\/imagesloaded\/imagesloaded.pkgd.min.js?v=19",
+        "https:\/\/builder.bootstrapmade.com\/static\/vendors\/isotope-layout\/isotope.pkgd.min.js?v=19",
+        "https:\/\/builder.bootstrapmade.com\/static\/vendors\/glightbox\/js\/glightbox.min.js?v=19",
+        "https:\/\/builder.bootstrapmade.com\/static\/vendors\/swiper\/swiper-bundle.min.js?v=19"
+    ]
+}
