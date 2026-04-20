@@ -8,6 +8,7 @@
     $contactMessagesActive = request()->routeIs('admin.contact-messages.*');
     $productsActive = request()->routeIs('admin.products.*');
     $productCategoriesActive = request()->routeIs('admin.product-categories.*');
+    $commandsActive = request()->routeIs('admin.commands.*');
 @endphp
 
 <aside
@@ -115,6 +116,21 @@
                 'text-zinc-400 hover:bg-zinc-800/80 hover:text-white' => ! $productsActive,
             ])
         >{{ __('Products') }}</a>
+
+        <p class="px-3 pt-4 text-[10px] font-semibold uppercase tracking-wider text-zinc-600">{{ __('System') }}</p>
+        <a
+            href="{{ route('admin.commands.index') }}"
+            @class([
+                'flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition sm:text-base',
+                'bg-amber-500/15 text-amber-400' => $commandsActive,
+                'text-zinc-400 hover:bg-zinc-800/80 hover:text-white' => ! $commandsActive,
+            ])
+        >
+            <svg class="size-4 shrink-0 opacity-80" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5h10.5m-10.5 6h10.5m-10.5 6h10.5M4.5 7.5A1.5 1.5 0 0 1 6 6h12a1.5 1.5 0 0 1 1.5 1.5v12a1.5 1.5 0 0 1-1.5 1.5H6a1.5 1.5 0 0 1-1.5-1.5v-12Z" />
+            </svg>
+            {{ __('Commands') }}
+        </a>
     </nav>
 
     <div class="border-t border-zinc-800 p-3 sm:p-4">

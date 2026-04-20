@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\AdminAuthController;
+use App\Http\Controllers\Admin\AdminCommandController;
 use App\Http\Controllers\Admin\AdminDashboardController;
 use App\Http\Controllers\Admin\ContactMessageController as AdminContactMessageController;
 use App\Http\Controllers\Admin\SiteAboutItemController;
@@ -34,6 +35,9 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::middleware(['auth', 'admin'])->group(function () {
         Route::get('dashboard', AdminDashboardController::class)->name('dashboard');
         Route::post('logout', [AdminAuthController::class, 'destroy'])->name('logout');
+
+        Route::get('commands', [AdminCommandController::class, 'index'])->name('commands.index');
+        Route::post('commands/run', [AdminCommandController::class, 'run'])->name('commands.run');
 
         Route::get('site-pages', [SitePageController::class, 'index'])->name('site-pages.index');
         Route::get('site-pages/{sitePage}/edit', [SitePageController::class, 'edit'])->name('site-pages.edit');
