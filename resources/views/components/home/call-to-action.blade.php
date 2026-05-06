@@ -8,7 +8,7 @@
             <div class="info-block">
               <span class="tagline">Partner With Professionals</span>
               <h2>Transform Your Vision Into Solid Reality</h2>
-              <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Donec velit neque auctor sit amet aliquam vel.</p>
+              <p>Whether you are starting a new build or restocking a busy site, our team will help you choose the right materials at the right price — and get them delivered on time.</p>
     
               <div class="highlight-cards">
                 <div class="highlight-card aos-init" data-aos="zoom-in" data-aos-delay="200">

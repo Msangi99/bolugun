@@ -13,31 +13,24 @@
     </div>
 
     <div class="container aos-init" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
-            <div class="col-lg-4">
-                <div class="info-cards">
-                    @forelse ($items as $index => $item)
-                        <div class="info-card d-flex align-items-start gap-3 aos-init" data-aos="fade-up" data-aos-delay="{{ min(100 + $index * 100, 400) }}">
-                            <div class="icon-box">
-                                @if ($url = $item->imageUrl())
-                                    <img src="{{ $url }}" alt="" loading="lazy" width="48" height="48">
-                                @else
-                                    <i class="bi bi-{{ $item->icon_class }}"></i>
-                                @endif
-                            </div>
-                            <div>
-                                <h4>{{ $item->title }}</h4>
-                                <p>{!! nl2br(e($item->body)) !!}</p>
-                            </div>
-                        </div>
-                    @empty
-                        @include('components.home.contact-cards-only')
-                    @endforelse
+        <div class="info-cards">
+            @forelse ($items as $index => $item)
+                <div class="info-card d-flex align-items-start gap-3 aos-init" data-aos="fade-up" data-aos-delay="{{ min(100 + $index * 100, 400) }}">
+                    <div class="icon-box">
+                        @if ($url = $item->imageUrl())
+                            <img src="{{ $url }}" alt="" loading="lazy" width="48" height="48">
+                        @else
+                            <i class="bi bi-{{ $item->icon_class }}"></i>
+                        @endif
+                    </div>
+                    <div>
+                        <h4>{{ $item->title }}</h4>
+                        <p>{!! nl2br(e($item->body)) !!}</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-8 aos-init" data-aos="fade-up" data-aos-delay="200">
-                @include('pages.partials.contact-form')
-            </div>
+            @empty
+                @include('components.home.contact-cards-only')
+            @endforelse
         </div>
     </div>
 

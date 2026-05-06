@@ -22,7 +22,10 @@
     </div>
     <div>
         <h4>{{ __('Call Us') }}</h4>
-        <p><a href="tel:+255789946428" class="text-reset">+255 789 946 428</a></p>
+        <p>
+            <a href="tel:+255789946428" class="text-reset">+255 789 946 428</a><br>
+            <a href="tel:+255671351612" class="text-reset">+255 671 351 612</a>
+        </p>
     </div>
 </div>
 <div class="info-card d-flex align-items-start gap-3 aos-init" data-aos="fade-up" data-aos-delay="400">

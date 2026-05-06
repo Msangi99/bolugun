@@ -7,9 +7,9 @@
       <div class="container position-relative">
         <div class="row">
           <div class="col-lg-8 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <span class="badge-label"><i class="bi bi-building"></i> Trusted Construction Partner Since 1998</span>
+            <span class="badge-label"><i class="bi bi-building"></i> Trusted Construction Partner Since 2019</span>
             <h1>Building Tomorrow's Infrastructure <span class="accent">Today</span></h1>
-            <p class="lead">Voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
+            <p class="lead">From cement and steel to tools and finishing materials, we supply everything builders need across Dar es Salaam. Trusted by contractors, developers, and homeowners for quality stock, fair prices, and fast delivery.</p>
             <div class="hero-actions d-flex flex-wrap gap-3">
               <a href="{{ route('pages.show', 'products') }}" class="btn-main">{{ __('Explore Our Products') }}</a>
               <a href="{{ route('pages.show', 'contact') }}" class="btn-outline">Request a Quote <i class="bi bi-arrow-right"></i></a>

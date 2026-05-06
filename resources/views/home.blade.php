@@ -11,7 +11,6 @@
         @if (isset($siteTeamMembers) && $siteTeamMembers->isNotEmpty())
             <x-home.team :members="$siteTeamMembers" />
         @endif
-        <x-home.testimonials />
         <x-home.faq />
         @if (isset($siteProducts) && ($siteProducts->isNotEmpty() || (isset($siteProductCategories) && $siteProductCategories->isNotEmpty())))
             <section id="products" class="projects section" data-builder="section">

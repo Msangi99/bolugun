@@ -8,7 +8,7 @@
             <div class="stats-content">
               <span class="label-tag">Our Track Record</span>
               <h2>Numbers That Speak for Our Commitment</h2>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore.</p>
+              <p>Years of consistent supply, hundreds of completed projects, and thousands of satisfied customers — our numbers reflect the trust builders place in us every day.</p>
               <a href="{{ route('pages.show', 'products') }}" class="stats-link">{{ __('View Our Products') }} <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>

@@ -22,6 +22,9 @@ Route::post('/contact', [ContactMessageController::class, 'store'])
     ->middleware('throttle:10,1')
     ->name('contact.store');
 
+Route::get('/products/{category:slug}', [PageController::class, 'showCategory'])
+    ->name('products.category');
+
 Route::get('/{slug}', [PageController::class, 'show'])
     ->whereIn('slug', ['about', 'services', 'products', 'contact'])
     ->name('pages.show');

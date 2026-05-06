@@ -48,4 +48,20 @@ class PageController extends Controller
             'siteProductCategories' => $siteProductCategories,
         ]);
     }
+
+    public function showCategory(SiteProductCategory $category): View
+    {
+        $page = SitePage::query()->where('slug', 'products')->first();
+
+        $products = $category->products()
+            ->orderBy('sort_order')
+            ->orderBy('id')
+            ->get();
+
+        return view('pages.product-category', [
+            'page' => $page,
+            'category' => $category,
+            'products' => $products,
+        ]);
+    }
 }

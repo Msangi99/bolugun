@@ -2,7 +2,7 @@
     
       <div class="container section-title aos-init" data-aos="fade-up" data-builder="section-title">
       <h2>How We Work</h2>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem</p>
+      <p>A clear, four-step process to take your project from first conversation to handover.</p>
     </div>
     
       <div class="container aos-init" data-aos="fade-up" data-aos-delay="100">
@@ -16,7 +16,7 @@
                 <i class="bi bi-chat-dots"></i>
               </div>
               <h3>Consultation</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.</p>
+              <p>We listen to your requirements, review your drawings, and recommend the right materials and quantities for your build.</p>
             </div>
           </div><!-- End Step -->
     
@@ -27,7 +27,7 @@
                 <i class="bi bi-pencil-square"></i>
               </div>
               <h3>Planning &amp; Design</h3>
-              <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+              <p>You receive a detailed quotation, delivery plan, and timeline so you know exactly what to expect — and when.</p>
             </div>
           </div><!-- End Step -->
     
@@ -38,7 +38,7 @@
                 <i class="bi bi-gear"></i>
               </div>
               <h3>Construction</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+              <p>Materials are dispatched on schedule and delivered to site, with phased supply if your project runs in stages.</p>
             </div>
           </div><!-- End Step -->
     
@@ -49,7 +49,7 @@
                 <i class="bi bi-key"></i>
               </div>
               <h3>Project Handover</h3>
-              <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim.</p>
+              <p>We confirm every order is complete and stay available for follow-up supplies, repeat orders, and future projects.</p>
             </div>
           </div><!-- End Step -->
     
